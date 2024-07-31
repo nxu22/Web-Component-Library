@@ -2,7 +2,7 @@
 FROM node:16-alpine
 # set working directory to the specified 'lastName_firstName_site'
 WORKDIR /nxu_ui_garden
-# add `/nxu_qiang_ui_garden/node_modules/.bin` to $PATH
+# add `/nxu_ui_garden/node_modules/.bin` to $PATH
 ENV PATH /nxu_ui_garden/node_modules/.bin:$PATH
 # install app dependencies
 COPY package.json ./
