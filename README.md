@@ -15,7 +15,7 @@ Clone the GitHub repository:
 Navigate to the repository directory:
 
 ```
-cd web3012_coding_assignment12
+cd Web-Component-Library
 ```
 
 ## Running the Application with Docker
